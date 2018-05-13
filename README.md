@@ -1,23 +1,25 @@
-/*
-Problem: There would be some string/brackets to given and we need to decide whether it's symmetric or not.
-*/
-
-//# BracketController
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ConsoleApplication1
-{
+        /*
+        Problem: There would be some string/brackets to given and we need to decide whether it's symmetric or not.
+        */    
+    
+     # BracketController    
+    using System;    
+    using System.Collections.Generic;
+    using System.Linq;    
+    using System.Text;
+    
+    namespace ConsoleApplication1
+    {         
+    
     class Program
-    {
-        static bool solution(string brackets)
+    {       
+       static bool solution(string brackets)
         {
             bool result = false;
             int lastChar = 0;
             int firstChar = 0;
-            int flag = 0;          
+            
+                 int flag = 0;     
           
                 char[] characters = new char[brackets.Length];
                 for (int i = 0; i < brackets.Length; i++)
@@ -53,5 +55,4 @@ namespace ConsoleApplication1
             Console.ReadLine();
         }
     }
-
-}
+    }
