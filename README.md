@@ -2,7 +2,7 @@
 Problem: There would be some string/brackets to given and we need to decide whether it's symmetric or not.
 */
 
-# BracketController
+//# BracketController
 using System;
 using System.Collections.Generic;
 using System.Linq;
